@@ -276,11 +276,28 @@ ul.amenity-list li {
     margin-right: 9px;
 }
 
+.line-1-2 {
+    height: 1px;
+    width: 34%;
+    margin-top: 9px;
+    background: #000;
+    margin-right: 9px;
+}
+
+
 .line-2 {
     height: 1px;
     width: 34%;
     margin-top: 9px;
     background: #fff;
+    margin-left: 9px;
+}
+
+.line-2-2 {
+    height: 1px;
+    width: 34%;
+    margin-top: 9px;
+    background: #000;
     margin-left: 9px;
 }
 
@@ -294,7 +311,7 @@ ul.amenity-list li {
 }
 
 .input-field input {
-    width: 57%;
+    width: 59%;
     margin-left: 3px;
     background: #fff0;
     border: 1px solid #fff;
@@ -319,12 +336,15 @@ ul.amenity-list li {
 }
 
 .alor-package h3 {
-    padding-top: 1.3em;
-    font-size: 18px;
+    padding-top: 1em;
+    font-size: 17px;
+    margin-bottom: 1px;
 }
 
 .alor-package h2 {
     font-size: 20px;
+    margin-bottom: 1px;
+
 }
 
 .alor-package p {
@@ -392,7 +412,7 @@ ul.package-inclusions li::before {
 }
 
 .rw-1 {
-    padding-top: 1em;
+    padding-top: 0.6em;
 }
 
 .intr-active p {
@@ -458,6 +478,25 @@ footer {
     line-height: 30px;
 }
 
+.center-footer {
+    justify-content: center;
+    display: flex;
+}
+
+.ip2 input {
+    border: 1px solid #000 !important;
+}
+
+.btn-field {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul.package-inclusions li {
+    font-size: 14px;
+    line-height: 21px;
+}
+
 @media (min-width: 992px) {
     .navx {
         justify-content: center;
@@ -479,15 +518,52 @@ footer {
     .centerize-text {
         text-align: center;
     }
+
+
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
     .carousel-capt {
         top: 6.5em;
     }
+
+    .alor-rest h4 {
+        padding-top: 8px;
+    }
+
+    .alor-rest p {
+        padding-top: 1em;
+    }
+
+    .alor-package {
+        padding-left: 31px;
+        padding-right: 31px;
+    }
+
+    .btn-field {
+        justify-content: space-around;
+    }
+
+    .pkg-row {
+        padding-bottom: 1em;
+    }
+
+    .alor-room {
+        padding: 0px 33px;
+        padding-bottom: 1em;
+    }
 }
 
 @media (max-width: 767px) {
+    .alor-room {
+        padding: 0px 33px;
+        padding-bottom: 1em;
+    }
+
+    .pkg-row {
+        padding-bottom: 1em;
+    }
+
     .bg-alor {
         position: relative;
     }
@@ -499,6 +575,54 @@ footer {
     .alor-fac-name p {
         border: none;
         padding: 0px;
+    }
+
+    .roww {
+        padding: 20px;
+    }
+
+    .no-l-pad {
+        padding-left: 15px;
+    }
+
+    .no-r-pad {
+        padding-right: 15px;
+    }
+
+    .mini-width img {
+        width: 100%;
+    }
+
+    .alor-rest h4 {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .alor-rest p {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .alor-package {
+        padding-left: 31px;
+        padding-right: 31px;
+    }
+
+    .btn-field {
+        display: flex;
+        justify-content: center;
+    }
+
+    .field-1 input {
+        margin-left: 40px;
+    }
+
+    .field-2 input {
+        margin-left: 21px;
+    }
+
+    .field-3 input {
+        margin-left: 7px;
     }
 }
 
@@ -513,5 +637,31 @@ footer {
 
     .carousel-capt h3 {
         font-size: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .center-footer {
+        justify-content: flex-start;
+    }
+
+    .foot-ul {
+        padding: 0px;
+        padding-top: 2em;
+    }
+}
+
+@media(max-width: 1100px) and (min-width: 992px) {
+    .alor-rest h4 {
+        padding-top: 4em;
+    }
+
+    .alor-package h3 {
+        padding-top: 0.5em;
+    }
+
+    ul.package-inclusions li {
+        font-size: 14px;
+        line-height: 21px;
     }
 }
