@@ -442,6 +442,9 @@ ul.package-inclusions li::before {
 
 }
 
+.gallary {
+    background: #fff;
+}
 
 .inactive {
     position: relative;
@@ -495,6 +498,15 @@ footer {
 ul.package-inclusions li {
     font-size: 14px;
     line-height: 21px;
+}
+
+.gallary {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallary h3 {
+    padding-bottom: 17px;
 }
 
 @media (min-width: 992px) {
