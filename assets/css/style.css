@@ -509,6 +509,26 @@ ul.package-inclusions li {
     padding-bottom: 17px;
 }
 
+.pdr-10 {
+    padding-right: 10px;
+}
+
+.spn img {
+    width: 28px;
+}
+
+.owl-prev {
+    display: none;
+}
+
+.owl-next {
+    display: none;
+}
+
+.disabled {
+    display: none !important;
+}
+
 @media (min-width: 992px) {
     .navx {
         justify-content: center;
@@ -677,3 +697,5 @@ ul.package-inclusions li {
         line-height: 21px;
     }
 }
+
+@media (min-height: 1450px) {}
